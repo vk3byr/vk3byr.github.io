@@ -1,9 +1,17 @@
-<h1>{{ site.title }}</h1>
-<h2>{{ page.title }}</h2>
-
-<p>My Pages:</p>
-<p><a href="index.html">Home</a></p>
-<p><a href="kittens.html">Kittehs</a></p>
-<hr />
-
-{{ content }}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>{{ site.title }}</title>
+  </head>
+  <body>
+    <h1>{{ site.title }}</h1>
+    <h2>{{ page.title }}</h2>
+    
+    <p>My Pages:</p>
+    <p><a href="index.html">Home</a></p>
+    <p><a href="kittens.html">Kittehs</a></p>
+    <hr />
+    {{ content }}
+  </body>
+</html>
